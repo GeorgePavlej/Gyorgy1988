@@ -1,0 +1,18 @@
+name = input ('Hi, what is your name?: ')
+loan = float(input(f'{name}, please enter how much you would like to borrow: '))
+num_paym = int(input('Please enter how many monthly payments you will have: '))
+interest = input('What is your interest Rate?: ')
+interest = float(interest)/100/12
+monthly_payments = loan * (interest * (1 + interest) ** num_paym) / ((1 + interest) ** num_paym - 1)
+print (f'Your monthly paiment is: {monthly_payments:.2f}')
+
+balance = loan
+principal = 0
+monthly_interest = 0
+
+for i in range(num_paym):
+    monthly_interest = balance * interest
+    principal = monthly_payments - monthly_interest
+    balance = balance - principal
+    print (f'Months {i+1}:\nPrincipal is:\t\t{principal:.2f}\nMonthly interest is:\t{monthly_interest:.2f}\nRemaining balance is:\t{balance:.2f}')
+    
