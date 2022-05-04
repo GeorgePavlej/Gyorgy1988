@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Gyorgy1988
+- 👋 Hi, I’m Gyorgy
 - 👀 I’m interested in Data-Science and Web Development
-- 🌱 I’m currently learning Python, HTML, CSS
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning Python, HTML, CSS, Flask, Git, 
+- 💞️ I’m looking to collaborate on W
 - 📫 How to reach me georgepavlej@gmail.com
 
 <!---
