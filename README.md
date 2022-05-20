@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Gyorgy
 - 👀 I’m interested in Data-Science and Web Development
-- 🌱 I’m currently learning Python, HTML, CSS, Flask, Git, 
-- 💞️ I’m looking to collaborate on W
+- 🌱 I’m currently learning Python, Flask, Django, Git, Bootstrap
 - 📫 How to reach me georgepavlej@gmail.com
 
 <!---
